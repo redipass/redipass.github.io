@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Network Checking</title>
+    <style>
+        /* Styling for the dark theme */
+        body {
+            background-color: #222;
+            color: #fff;
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #333;
+            border: 1px solid #555;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .animation {
+            width: 100px;
+            height: 100px;
+            background-color: #555;
+            border-radius: 50%;
+            margin: 20px auto;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.8);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(5);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(10);
+                opacity: 0.5;
+            }
+        }
+    </style>
+    <script>
+        setTimeout(function () {
+            window.location.href = "https://isharakumaraperera.github.io/pass.html";
+        }, 5000);
+    </script>
+</head>
+
+<body>
+    <div class="popup">
+        <div class="animation"></div>
+        <h2>Checking your Network...</h2>
+    </div>
+</body>
+
+</html>
